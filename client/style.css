@@ -1,0 +1,33 @@
+/* .mightyFiles {
+  background-image: url('../icons/mightyFiles.png');
+  background-repeat: no-repeat;
+} */
+
+.wrapper, .mighty-btn {
+  /* height: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.ico {
+  /* width: 10px;
+  height: 10px;
+  background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--btnPadding);
+  min-width: var(--btnWidth);
+  height: var(--btnHeight);
+  max-height: var(--btnHeightMax);
+  border-width: var(--globalBorderWidth);
+  border-color: transparent;
+  border-style: solid;
+  border-radius: var(--borderRadius);
+  margin: var(--btnMargin);
+  user-select: none;
+  cursor: default;
+}
